@@ -1,0 +1,22 @@
+{
+    "author": "Plugtopus Agency",
+    "content_scripts": [{
+        "all_frames": true,
+        "js": ["js/script-injector.js"],
+        "matches": ["https://*.instagram.com/*"]
+    }],
+    "default_locale": "ru",
+    "description": "__MSG_desc__",
+    "homepage_url": "https://plugtopus.agency",
+    "icons": {
+        "128": "icons/128x128.png",
+        "16": "icons/16x16.png",
+        "48": "icons/48x48.png"
+    },
+    "manifest_version": 2,
+    "minimum_chrome_version": "41",
+    "name": "Controls for Instagram™ Videos",
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "20.3.18.1",
+    "web_accessible_resources": ["js/main.js"]
+}
